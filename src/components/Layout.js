@@ -13,6 +13,7 @@ export default function Layout({ children }) {
             className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
           >
             <img
+              alt="item"
               src={require("../logo.png")}
               style={{ width: 40, height: 40 }}
             />
