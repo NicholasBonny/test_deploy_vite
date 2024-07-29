@@ -16,6 +16,7 @@ export default function ProductDetails() {
         <div className="row">
           <div className="col-6 mt-5 mb-5">
             <img
+              alt="item"
               src={MY_PRODUCT.image}
               style={{ width: "100%", height: "100%" }}
             />

@@ -17,6 +17,7 @@ export default function CheckoutPage() {
             <div className="row d-flex align-items-center">
               <div className="col-6">
                 <img
+                  alt="item"
                   src={MY_PRODUCT.image}
                   style={{ width: 300, height: 300 }}
                 />

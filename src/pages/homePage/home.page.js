@@ -66,6 +66,7 @@ export default function HomeDashboard() {
             </span>
             <small className="px-3">{state?.name}</small>
             <img
+              alt="item"
               src={require("../../logo.png")}
               style={{ width: 30, height: 30 }}
             />
