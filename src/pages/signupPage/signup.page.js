@@ -6,7 +6,10 @@ import { MyContext } from "../../contextApi/myContext";
 
 export default function Signup() {
   const navigate = useNavigate();
-  const { state, setState } = React.useContext(MyContext);
+  const {
+    state: {},
+    setState,
+  } = React.useContext(MyContext);
 
   const handleOnChange = (e) => {
     const { name, value } = e.target;

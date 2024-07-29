@@ -6,7 +6,7 @@ import { MyContext } from "../../contextApi/myContext";
 
 export default function Signin() {
   const navigate = useNavigate();
-  const { state, setState } = useContext(MyContext);
+  const { state } = useContext(MyContext);
   //    state={
   // name:'bonny',
   // email:'test@gmail.com',
