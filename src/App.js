@@ -5,7 +5,6 @@ import Signup from "./pages/signupPage/signup.page";
 import HomeDashboard from "./pages/homePage/home.page";
 import ProductDetails from "./pages/productDetalis/productDetails.page";
 import CheckoutPage from "./pages/checkoutPage/CheckoutPage";
-import State from "./pages/State";
 import { ContextProvider } from "./contextApi/myContext";
 
 function App() {
@@ -29,10 +28,6 @@ function App() {
     {
       path: "signup",
       element: <Signup />,
-    },
-    {
-      path: "test",
-      element: <State />,
     },
   ]);
 
