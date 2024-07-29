@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: "94298",
     name: "3 Chicken Wings",
@@ -53,6 +53,8 @@ export default [
     image: require("./burguer.jpg"),
   },
 ];
+
+export default data;
 
 //     {
 //       "id": "26582",
