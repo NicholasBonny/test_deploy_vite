@@ -8,7 +8,7 @@ function MenuItemCard({ image, name, price, id }) {
        align-items-center border rounded px-4 py-1 mx-2"
     >
       <a href={`/product/${id}`}>
-        <img src={image} style={{ width: 90, height: 90 }} />
+        <img alt="item" src={image} style={{ width: 90, height: 90 }} />
         <h6>{name}</h6>
         <p>{price}</p>
       </a>
