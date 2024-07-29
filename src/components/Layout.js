@@ -26,7 +26,7 @@ export default function Layout({ children }) {
                 Home
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a href="#" className="nav-link" aria-current="page">
                 Menu
               </a>
@@ -45,7 +45,7 @@ export default function Layout({ children }) {
               <a href="#" className="nav-link" aria-current="page">
                 Settings
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a href="/signin" className="nav-link" aria-current="page">
                 Sign In
