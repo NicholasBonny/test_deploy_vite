@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../../components/Layout";
 import { Link, useParams } from "react-router-dom";
 import data from "../../data";
-import Parent from "../../components/Parent";
 
 export default function ProductDetails() {
   const { id } = useParams();

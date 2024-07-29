@@ -4,7 +4,6 @@ import MENU from "../../data";
 import CategoryCard from "../../components/CategoryCard";
 import MenuItemCard from "../../components/MenuItemCard";
 import Layout from "../../components/Layout";
-import Parent from "../../components/Parent";
 import { MyContext } from "../../contextApi/myContext";
 
 const CATEGORY_DATA = [
@@ -35,7 +34,7 @@ const CATEGORY_DATA = [
 ];
 
 export default function HomeDashboard() {
-  const { state, setState } = useContext(MyContext);
+  const { state } = useContext(MyContext);
 
   return (
     <Layout>
